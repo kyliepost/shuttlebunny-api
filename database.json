@@ -1,82 +1,145 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Shop Dog",
-            "email": "shop@dog.com",
-            "password": "shop"
-        },
-        {
-            "id": 2,
-            "name": "Mr. Pink",
-            "email": "mr@pink.com",
-            "password": "pink"
-        },
-        {
-            "id": 3,
-            "name": "Kylie Postlethwaite",
-            "email": "kylie@postlethwaite.com",
-            "password": "kylie"
-        }
-    ],
-    "rivers": [
-        {
-            "id": 1,
-            "name": "Ocoee River",
-            "imageURL": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi2.wp.com%2Fchasingthesun.ca%2Fwp-content%2Fuploads%2F2017%2F10%2FDSCN6999.jpg&f=1&nofb=1"
-        },
-        {
-            "id": 2,
-            "name": "Nantahala River",
-            "imageURL": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-_oIpCyixbMU%2FU86AE1uAlRI%2FAAAAAAAARHQ%2FNCG6T1ag4Bs%2Fs1600%2FIMG_7575.JPG&f=1&nofb=1"
-        },
-        {
-            "id": 3,
-            "name": "Gauley River",
-            "imageURL": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Faceraft.com%2Fwp-content%2Fuploads%2F2016%2F12%2FACE-Gauley-River-Whitewater-Rafting-Aerial_grande.jpg&f=1&nofb=1"
-        }
-    ], 
-    "posts": [
-        {
-            "id": 1,
-            "riverId": 1,
-            "userId": 2,
-            "description": "Looking to paddle 9/23/21 at around 10 am, in need of pickup at takeout!",
-            "time": 1634687829221
-        },
-        {
-            "id": 2,
-            "riverId": 2,
-            "userId": 1,
-            "description": "Paddling the Nantahala 9/18/21, will be at takeout around 11:30 am and in need of transportation.",
-            "time": 1634687829221
-        },
-        {
-            "id": 3,
-            "riverId": 3,
-            "userId": 1,
-            "description": "Will be at the Gauley 10/2/21! I have my suv and will shuttle with anyone else up that weekend.",
-            "time": 1634687829221
-        }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "userId": 1,
-            "postId": 1,
-            "description": "I'll be running through there to get to work, will pick you up on my way!"
-        },
-        {
-            "id": 2,
-            "userId": 3,
-            "postId": 2,
-            "description": "I'll be paddling that weekend too! We can shuttle together, I'll meet you at the takeout."
-        },
-        {
-            "id": 3,
-            "userId": 1,
-            "postId": 3,
-            "description": "I'll be there that weekend and would love to shuttle! Will meet you at the put in."
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Shop Dog",
+      "email": "shop@dog.com",
+      "password": "shop"
+    },
+    {
+      "id": 2,
+      "name": "Mr. Pink",
+      "email": "mr@pink.com",
+      "password": "pink"
+    },
+    {
+      "id": 3,
+      "name": "Kylie Postlethwaite",
+      "email": "kylie@postlethwaite.com",
+      "password": "kylie"
+    },
+    {
+      "name": "Fozzie Bear",
+      "email": "fozzie@bear.com",
+      "password": "fozzie",
+      "id": 4
+    },
+    {
+      "name": "Gail Force",
+      "email": "gail@force.com",
+      "password": "gail",
+      "id": 5
+    },
+    {
+      "name": "Alicia Ayers-Lott",
+      "email": "alicia@ayers-lott.com",
+      "password": "alicia",
+      "id": 6
+    },
+    {
+      "name": "Bootleg Jen",
+      "email": "bootleg@jen.com",
+      "password": "bootleg",
+      "id": 7
+    },
+    {
+      "name": "savanah postlethwaite",
+      "email": "sav@post.com",
+      "password": "sav",
+      "id": 8
+    }
+  ],
+  "rivers": [
+    {
+      "id": 1,
+      "name": "Ocoee River",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi2.wp.com%2Fchasingthesun.ca%2Fwp-content%2Fuploads%2F2017%2F10%2FDSCN6999.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 2,
+      "name": "Nantahala River",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-_oIpCyixbMU%2FU86AE1uAlRI%2FAAAAAAAARHQ%2FNCG6T1ag4Bs%2Fs1600%2FIMG_7575.JPG&f=1&nofb=1"
+    },
+    {
+      "id": 3,
+      "name": "Gauley River",
+      "imageURL": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Faceraft.com%2Fwp-content%2Fuploads%2F2016%2F12%2FACE-Gauley-River-Whitewater-Rafting-Aerial_grande.jpg&f=1&nofb=1"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "riverId": 1,
+      "userId": 2,
+      "description": "Looking to paddle 9/23/21 at around 10 am, in need of pickup at takeout!",
+      "time": 1634687829221
+    },
+    {
+      "id": 2,
+      "riverId": 2,
+      "userId": 1,
+      "description": "Paddling the Nantahala 9/18/21, will be at takeout around 11:30 am and in need of transportation.",
+      "time": 1634687829221
+    },
+    {
+      "id": 3,
+      "riverId": 3,
+      "userId": 1,
+      "description": "Will be at the Gauley 10/2/21! I have my suv and will shuttle with anyone else up that weekend.",
+      "time": 1634687829221
+    },
+    {
+      "description": "Wanting to run the Ocoee with a partner on 9/18/21! Anyone down to paddle and help shuttle?",
+      "userId": 3,
+      "riverId": 1,
+      "timestamp": "",
+      "id": 5
+    },
+    {
+      "description": "Coming with some friends to the Gauley 10/6! Don't need to shuttle, but if you wanna group of people to go down the river with we will be there!",
+      "userId": 5,
+      "riverId": 3,
+      "timestamp": 1634687829221,
+      "id": 6
+    },
+    {
+      "description": "Looking to run the Nantahala on 10/1/21 and need to be picked up from the takeout at 10 am!",
+      "userId": 7,
+      "riverId": 2,
+      "timestamp": 1634687829221,
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 1,
+      "description": "I'll be running through there to get to work, will pick you up on my way!"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "postId": 2,
+      "description": "I'll be paddling that weekend too! We can shuttle together, I'll meet you at the takeout."
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "postId": 3,
+      "description": "I'll be there that weekend and would love to shuttle! Will meet you at the put in."
+    },
+    {
+      "description": "Hey Kylie!  I've been dying to get out on the water and am free that weekend. Would love to join!",
+      "userId": 8,
+      "riverId": 5,
+      "id": 4
+    },
+    {
+      "description": "Can pick you up too!",
+      "userId": 8,
+      "riverId": 1,
+      "id": 5
+    }
+  ]
 }
